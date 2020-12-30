@@ -1,0 +1,111 @@
+section.about-us h2.red-h2 {
+    color: lightcoral;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+section.about-us h1.about-us-header {
+    font-weight: 500;
+    font-size: 35px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+/*SIEDZIAŁEM NAD TYM 3 DNI ALE NARESZCIE SIĘ UDAŁO XDDDDD*/
+section.about-us div.img-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section.about-us div.guys {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+section.about-us div.guys img {
+    width: 90%;
+    height: auto;
+    max-height: 45%;
+    border-radius: 20%;
+}
+
+section.about-us div.women {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.about-us div.women img {
+    width: 95%;
+    height: 50%;
+    border-radius: 20%;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    /* section.about-us h2.red-h2 {
+        color: lightcoral;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 20px;
+    } */
+    section.about-us {
+        display: flex;
+        align-content: space-between;
+        justify-content: center;
+    }
+
+    section.about-us div.main-container {
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    /* section.about-us h1.about-us-header {
+        font-weight: 500;
+        font-size: 35px;
+        color: #424242;
+        margin-bottom: 10px;
+    }
+     */
+    /*SIEDZIAŁEM NAD TYM 3 DNI ALE NARESZCIE SIĘ UDAŁO XDDDDD*/
+    section.about-us div.img-container {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    /* section.about-us div.guys {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-around;
+        align-items: space-around;
+    }
+    
+    section.about-us div.guys img {
+        width: 90%;
+        height: auto;
+        max-height: 45%;
+        border-radius: 20%;
+    }
+    
+    section.about-us div.women {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    section.about-us div.women img {
+        width: 95%;
+        height: 50%;
+        border-radius: 20%;
+    } */
+}

@@ -1,0 +1,36 @@
+section.quotes h2 {
+    font-weight: 200;
+    font-size: 17px;
+    color: gray;
+}
+
+section.quotes {
+    margin-bottom: 100px;
+}
+
+section.quotes h1 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+section.quotes h1.section-header {
+    margin-bottom: 30px;
+}
+
+section.quotes div.quote-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+section.quotes img {
+    border-radius: 15%;
+    width: 30%;
+}
+
+section.quotes div.h-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}

@@ -1,0 +1,20 @@
+header {
+    width: 80%;
+    margin: 120px auto 0;
+    overflow: hidden;
+}
+
+
+header h2.blue-h2 {
+    font-size: 16px;
+    color: #79c5f2;
+}
+
+header img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
